@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="inlamning.css" type="text/css" ?>
+<alkohol_drinkar> <!-- Visar en lista över olika slags drinkar-->
+	<drink_typ id="vodka"> <!-- Cocktailen är en vodkadrink-->
+		<rubrik>Vodka drinkar</rubrik> <!-- Rubriken presenterar vad för slags cocktails vodka_typ'en innehåller-->
+		<kategori>Kategori: Vodka</kategori> <!-- Kategorin vi håller oss inom för att skapa vår drink är vodka-->
+		<spritrekommendation>Rekommenderar: Absolut Vodka</spritrekommendation> <!-- Rekommenderar en flaska som man kan använda sig av när man gör drinkarna.-->
+		<drinkar>
+			<drink id="1"> <!-- 1 av totalt 3 olika drinkar-->
+				<namn id="2-mental">2 Mental</namn> <!-- Drinkens namn-->
+				<ingrediens>&#8226; 2 cl Vodka</ingrediens> <!-- Ingredienser man behöver-->
+				<ingrediens>&#8226; 1 cl Campari</ingrediens>
+				<ingrediens>&#8226; Stänk med Angostura Bitter</ingrediens>
+				<ingrediens>&#8226; Tranbärsjuice</ingrediens>
+				<slutsteg>* Häll ingredienserna i en shaker. Skaka och servera i highball-glas.</slutsteg> <!-- Hur man häller upp/blandar drinken-->
+			</drink>
+			<drink id="2">
+				<namn id="2xt">2xT</namn>
+				<ingrediens>&#8226; 2 cl Vodka</ingrediens>
+				<ingrediens>&#8226; 1 cl Pepino Cactus</ingrediens>
+				<ingrediens>&#8226; 1 cl Blue Curaçao</ingrediens>
+				<ingrediens>&#8226; Passionsjuce och lite tranbärsjuice</ingrediens>
+				<ingrediens>&#8226; 1 cl Sourmix</ingrediens>
+				<slutsteg>* Häll ingredienserna i en shaker. Skakas tillsammans i 5 sekunder och hälls sedan upp i ett highballglas tillsammans med krossad is. Dekorera med en kort lime spiral i glaset</slutsteg>
+			</drink>
+			<drink id="3">
+				<namn id="747">747</namn>
+				<ingrediens>&#8226; 4 cl Vodka</ingrediens>
+				<ingrediens>&#8226; Fyll upp med lika delar Roses lime, tranbärsjuice och en skvätt Sprite.</ingrediens>
+				<info>* Drinken är från popgruppen Kent.</info> <!-- Övrig info angående drinken-->
+			</drink>
+		</drinkar>
+	</drink_typ>
+	<drink_typ id="whisky">
+		<rubrik id="whiskydrinkar">Whisky drinkar</rubrik>
+		<kategori id="whisky1">Kategori: Whisky</kategori>
+		<spritrekommendation>Rekommenderar: Varierar</spritrekommendation>
+		<drinkar>
+			<drink id="1">
+				<namn id="affinnity">Affinnity</namn>
+				<ingrediens>&#8226; 2 cl Whisky</ingrediens>
+				<ingrediens>&#8226; 2 cl Marezzo Rosso</ingrediens>
+				<ingrediens>&#8226; 2 stänk med Angostura Bitter</ingrediens>
+				<slutsteg>* Röres i cocktailglas. Garnera med ett rött bär</slutsteg>
+			</drink>
+			<drink id="2">
+				<namn id="alexcoffee">Alex Coffee</namn>
+				<ingrediens>&#8226; 4 cl Jack Daniel's</ingrediens>
+				<ingrediens>&#8226; 2 cl Cointreau</ingrediens>
+				<ingrediens>&#8226; Sour mix</ingrediens>
+				<ingrediens>&#8226; Lime</ingrediens>
+				<ingrediens>&#8226; Fruktsoda</ingrediens>
+				<ingrediens>&#8226; Is</ingrediens>
+				<slutsteg>* Häll JD, Cointreau, lite Sour mix i en shaker med is och krama i lite lime. 
+				Skaka! Fyll ett highballglas med is, sila över och toppa med fruktsoda.</slutsteg>
+			</drink>
+			<drink id="3">
+				<namn id="barmannens-special">Barmannens Special</namn>
+				<ingrediens>&#8226; 3 cl Lauder's Finest Scotch</ingrediens>
+				<ingrediens>&#8226; 3 cl Marie Brizard Orange Curacao</ingrediens>
+				<ingrediens>&#8226; 3 cl apelsinjuice</ingrediens>
+				<slutsteg>* Skakas och serveras i selterglas.</slutsteg>
+			</drink>
+		</drinkar>
+	</drink_typ>
+	<drink_typ id="tequila">
+		<rubrik id="tequiladrinkar">Tequila drinkar</rubrik>
+		<kategori id="tequila1">Kategori: Tequila</kategori>
+		<spritrekommendation>Rekommenderar: Varierar</spritrekommendation>
+		<drinkar>
+			<drink id="1">
+				<namn id="acapulco-flower">Acapulco Flower</namn>
+				<ingrediens>&#8226; 4 cl Sauza Tequila</ingrediens>
+				<ingrediens>&#8226; 5 cl koncentrerad fläderblomssaft</ingrediens>
+				<ingrediens>&#8226; 2 cl vatten</ingrediens>
+				<ingrediens>&#8226; Is</ingrediens>
+				<slutsteg>* Bygg drinken i ett whisky- eller rocksglas. Häll i tequila på is. Tillsätt fläderblomssaft och vatten. Garnera gärna med en fläderblomma, eller en annan vit blomma.</slutsteg>
+			</drink>
+			<drink id="2">
+				<namn id="alice-in-wonderland-shooter">Alice in Wonderland Shooter</namn>
+				<ingrediens>&#8226; 2 cl José Cuervo Especial Reposado</ingrediens>
+				<ingrediens>&#8226; 1 cl Mandarine Napoléon</ingrediens>
+				<slutsteg>* Häll ingredienserna i en shaker med is. Skaka och sila upp i shotsglas.</slutsteg>
+			</drink>
+			<drink id="3">
+				<namn id="alligator">Alligator</namn>
+				<ingrediens>&#8226; 4 cl Tequila</ingrediens>
+				<ingrediens>&#8226; 2 cl Pisang ambon</ingrediens>
+				<ingrediens>&#8226; Ananas sour</ingrediens>
+				<ingrediens>&#8226; Citron sour</ingrediens>
+				<slutsteg>* Häll ingredienserna i en shaker. Skaka och servera i rocksglas.</slutsteg>
+			</drink>
+		</drinkar>
+	</drink_typ>
+	<drink_typ id="absint">
+		<rubrik id="absintdrinkar">Absint shots</rubrik>
+		<kategori id="absint1">Kategori: Absinthe</kategori>
+		<spritrekommendation>Rekommenderar: Absint</spritrekommendation>
+		<drinkar>
+			<drink id="1">
+				<namn id="head-shock">Head Shock</namn>
+				<ingrediens>&#8226; 2 cl Tequila</ingrediens>
+				<ingrediens>&#8226; 4 cl Absint</ingrediens>
+				<slutsteg>* Häll i shotglas.</slutsteg>
+			</drink>
+			<drink id="2">
+				<namn id="inferno">Inferno</namn>
+				<ingrediens>&#8226; 6 cl Absint</ingrediens>
+				<ingrediens>&#8226; Limejuice</ingrediens>
+				<ingrediens>&#8226; Sockerlag</ingrediens>
+				<ingrediens>&#8226; Myntablad</ingrediens>
+				<slutsteg>* Pressa allt direkt i glaset. Servera med krossad is.</slutsteg>
+			</drink>
+			<drink id="3">
+				<namn id="ravgift">Rävgift</namn>
+				<ingrediens>&#8226; 3 cl Chartreuse</ingrediens>
+				<ingrediens>&#8226; 3 cl Absinthe</ingrediens>
+				<ingrediens>&#8226; 1 cl Grön Curaçao</ingrediens>
+				<ingrediens>&#8226; Mjölk</ingrediens>
+				<slutsteg>* Rör runt och servera i highball glas.</slutsteg>
+			</drink>
+		</drinkar>
+	</drink_typ>
+</alkohol_drinkar>

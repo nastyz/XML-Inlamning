@@ -1,0 +1,62 @@
+*{
+	display: block;
+}
+alkohol_drinkar {
+	margin-left: 20px;
+	font-family: Arial, sans-serif;
+	background-color: #1a1a1a;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+drink_typ {
+	background-color: #373737;
+	padding: 10px 20px 20px 10px;
+	margin: 20px 20px 0 0;
+	width: 270px;
+	float: left;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 2px 2px 1px #000;
+	-webkit-box-shadow: 2px 2px 1px #000;
+	box-shadow: 2px 2px 1px #000;
+}
+rubrik, namn {
+	padding-bottom: 5px;
+}
+rubrik {
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-size: 28px;
+	color: #e3ba2c;
+}
+kategori, spritrekommendation {
+	font-size: 14px;
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+namn {
+	padding-top: 10px;
+	font-size: 18px;
+	color: #e3712c;
+}
+ingrediens, slutsteg, info {
+	padding-bottom: 2px;
+	margin-left: 15px;
+	font-size: 15px;
+}
+slutsteg, info {
+	padding: 5px 0 0 0;
+	font-style: italic;
+	font-size: 11px;
+}
+drinkar {
+	padding: 0 15px 20px 10px;
+	background-color: #4b4b4b;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 1px 0px 1px #000;
+	-webkit-box-shadow: 1px 0px 1px #000;
+	box-shadow: 1px 0px 1px #000;
+}
